@@ -16,6 +16,9 @@ cabal-version:       >=1.10
 library
   hs-source-dirs:      src
   exposed-modules:     Control.Monad.Freer.Sql
+                     , Control.Monad.Freer.Sql.Internal
+                     , Control.Monad.Freer.Sql.Test
+                     , Control.Monad.Freer.Sql.Types
   build-depends:       base >= 4.7 && < 5
                      , persistent
                      , containers
