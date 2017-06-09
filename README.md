@@ -3,7 +3,7 @@ freer-effects wrapper for persistent queries
 
 -----
 
-freer-persistent uses free monads and extensible effects to turn persistent queries into easily testible effects.
+freer-persistent uses free monads and extensible effects to turn persistent queries into easily testable effects.
 
 It defines a new effect called `Db` that corresponds to a subset of the queries performable by persistent.
 When you use only this subset, you'll be able to mock the database to write 100% pure tests. 
